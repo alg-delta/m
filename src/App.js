@@ -9,7 +9,7 @@ import ScrollToTopButton from "./components/ScrollToTopButton";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/m">
+      <BrowserRouter basename="/m/">
         <Header />
         <Routes>
           <Route path="/" element={<Pf />} />
